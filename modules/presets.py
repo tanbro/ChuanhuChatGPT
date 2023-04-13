@@ -40,14 +40,9 @@ CONCURRENT_COUNT = 100 # 允许同时使用的用户数量
 SIM_K = 5
 INDEX_QUERY_TEMPRATURE = 1.0
 
-CHUANHU_TITLE = """<h1 align="left">川虎Chat 🚀</h1>"""
+CHUANHU_TITLE = """<h1 align="left">ChatGPT 🚀 Gradio</h1>"""
 CHUANHU_DESCRIPTION = """\
 <div align="center" style="margin:16px 0">
-
-由Bilibili [土川虎虎虎](https://space.bilibili.com/29125536) 和 [明昭MZhao](https://space.bilibili.com/24807452)开发
-
-访问川虎Chat的 [GitHub项目](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 下载最新版脚本
-
 </div>
 """
 
@@ -68,21 +63,21 @@ SUMMARIZE_PROMPT = "你是谁？我们刚才聊了什么？"  # 总结对话时�
 MODELS = [
     "gpt-3.5-turbo",
     "gpt-3.5-turbo-0301",
-    "gpt-4",
-    "gpt-4-0314",
-    "gpt-4-32k",
-    "gpt-4-32k-0314",
-    "chatglm-6b",
-    "chatglm-6b-int4",
-    "chatglm-6b-int4-qe",
-    "llama-7b-hf",
-    "llama-7b-hf-int4",
-    "llama-7b-hf-int8",
-    "llama-13b-hf",
-    "llama-13b-hf-int4",
-    "llama-30b-hf",
-    "llama-30b-hf-int4",
-    "llama-65b-hf",
+    # "gpt-4",
+    # "gpt-4-0314",
+    # "gpt-4-32k",
+    # "gpt-4-32k-0314",
+    # "chatglm-6b",
+    # "chatglm-6b-int4",
+    # "chatglm-6b-int4-qe",
+    # "llama-7b-hf",
+    # "llama-7b-hf-int4",
+    # "llama-7b-hf-int8",
+    # "llama-13b-hf",
+    # "llama-13b-hf-int4",
+    # "llama-30b-hf",
+    # "llama-30b-hf-int4",
+    # "llama-65b-hf",
 ]  # 可选的模型
 
 os.makedirs("models", exist_ok=True)
